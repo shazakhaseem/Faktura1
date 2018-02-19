@@ -1,0 +1,137 @@
+body {
+background-image: url(borderimg.png);
+margin: 1em;
+font-family: 'Nanum Pen Script', cursive;
+font-size: 20px;
+
+}
+
+#header {
+    background-color: maroon;
+    margin: 10px;
+    height: 90px;
+    border-radius: 5px;
+   
+    }
+    h3{
+        font-size: 250%;
+        text-align: center;
+        color: white;
+        font-family: 'Satisfy', cursive;
+position: relative;
+top: 50%;
+-webkit-transform: translateY( -50%);
+-ms-transform: translateY( -50%);
+transform: translateY( -50%);
+    }
+   
+
+    #navbar {
+        background-color: rgb(143, 58, 58);
+        margin: 10px;
+        height: 35px;
+        border-radius: 5px;
+        }
+        #navbar ul {
+            background-color: rgb(143, 58, 58);
+            margin: 10px;
+        list-style-type: none;
+        text-align: center;
+            border-radius: 5px;
+            padding: 5px;
+            }
+
+            #navbar ul li {
+               display: inline;
+             }
+             #navbar ul li a {
+                text-decoration: none;
+                font-family: 'Courgette', cursive;
+                padding: 1em 1em;
+                color: white;
+                text-shadow: 10px;
+                
+            }
+            #navbar ul li a:hover {
+color: black;
+background-color: white;
+            }
+        .main {
+            background-color: rgb(202, 194, 194);
+            margin: 10px;
+            border-radius: 5px;
+            padding: 20px;
+            font-size: 110%;
+            }
+            h1{
+                text-align: center;
+            }
+
+            .sideright {
+                background-color: rgb(202, 194, 194);
+                margin: 10px;
+                border-radius: 5px;
+                padding: 20px;
+                font-size: 105%;
+                float: right;
+                width: 260px;
+                }
+                #bottom{
+                    background-color: rgb(202, 194, 194);
+                    margin: 10px;
+                    height: 35px;
+                    border-radius: 5px; 
+                }
+                #footer{
+                    background-color: maroon;
+                    margin: 10px;
+                    height: 60px; 
+                    border-radius: 5px; 
+                    color: white;
+                    text-align: center;
+                    padding: 15px;
+                    font-size: 90%;
+                    
+                }
+                #footer ul {
+                    margin: 10px;
+                list-style-type: none;
+                text-align: center;
+                    border-radius: 5px;
+                    padding: 5px;
+                    }
+        
+                    #footer ul li {
+                       display: inline;
+                     }
+                     #footer ul li a {
+                        text-decoration: none;
+                        font-family: 'Courgette', cursive;
+                        padding: 1em 1em;
+                        color: white;
+                        text-shadow: 10px;
+                        
+                    }
+                    #footer ul li a:hover {
+        color: black;
+        background-color: white;
+                    }
+       #bottom{
+        height: 150px;
+         
+           background-color: rgb(202, 194, 194);
+        }
+
+        .telefon{
+            text-align: left;
+            padding: 10px;
+            float: left;
+        }
+
+        .e-post{
+            text-align: right;
+            padding: 10px;
+            padding-bottom: 10px;
+           position: relative;
+        }
+   
